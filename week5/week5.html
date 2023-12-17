@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <style>
+      tbody tr:nth-of-type(odd) {
+        background-color: #5F0E00;
+        color: #EEEEFF;
+      }
+      td :last-child{
+        background-color: #9F8800;
+      }
+    </style>
+    </head>
+  <body>
+    <table border ="1"> 
+      <caption>Work Schedule</caption>
+      <thead>
+        <tr>
+          <th id="day">Day</th>
+          <th id="Hours">Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td headers="day">Monday</td>
+          <td headers="hours">4</td>
+        </tr>
+        <tr>
+          <td headers="day">Tuesday</td>
+          <td headers="hours">3</td>
+        </tr>
+        <tr>
+          <td headers="day">Wednesday</td>
+          <td headers="hours">7</td>
+        </tr>
+        <tr>
+          <td headers="day">Thursday</td>
+          <td headers="hours">4</td>
+        </tr>
+        <tr>
+          <td headers="day">Friday</td>
+          <td headers="hours">1</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Total 19</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+  </html>
+  

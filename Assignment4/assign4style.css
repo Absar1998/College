@@ -1,0 +1,88 @@
+#allPage {
+  padding: 2px;
+  border-style: solid;
+  border-color:black;
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color:#e4ffb5
+}
+
+header {
+  background-color:#464647
+}
+
+body {
+  background-color: #ccc;
+  font-family: segoe ui, Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+h1 {
+  color: #dee937;
+  background-color: #464647;
+  padding-left: 5px;
+  font-variant: small-caps;
+  text-transform:capitalize
+}
+
+.fieldLabel {
+  text-align:right;
+  color: #3E5702;
+}
+
+label {
+	width: 164px;
+  color: #3E5702;
+}
+
+p {
+  padding-left:5px
+}
+
+fieldset {
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px gray;
+	border: thin solid #3E5702;
+	margin-bottom: 8px;
+}
+
+h4 {
+  color: grey;
+  font-variant: small-caps;
+}
+
+#btnSubmit{
+  font-size:medium;
+  padding: 5px 20px;
+}
+
+#btnReset{
+  font-size:medium;
+  padding: 5px 20px;
+}
+
+#btnSubmit:hover {
+  background-color: lightgrey
+}
+
+#btnReset:hover {
+  background-color: lightgrey
+}
+
+footer {
+  color: #dee937;
+  background-color: #464647;
+  color: #dee937;
+  padding-bottom:1px
+}
+
+footer a {
+  color: #dee937;
+  text-decoration:none
+}
+
+footer a:hover {
+  color: gray;
+  background-color:#dee937
+}

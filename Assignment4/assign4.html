@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>Absar Siddiqui-Atta - COMP213 - Assignment 4</title>
+  <meta content="webdesign, COMP213" name="keywords">
+  <meta content="Form for Assignment #4" name="description">
+  <link href="assign4style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="allPage">
+    <header>
+      <table style="width: 100%">
+        <tr>
+          <td style="width: 310px">
+            <a href="https://www.centennialcollege.ca/">
+              <img src="Images/centennialLogo.jpg" width="367" height="116" alt="Centennial College Logo"></a>
+          </td>
+          <td>
+            <h1>Continuing Education Course<br>
+              Instructor Evaluation</h1>
+          </td>
+        </tr>
+      </table>
+    </header>
+    <br>&nbsp;<label>Please read each statement carefully and consider each one individually.</label>
+    <form action="mailto:asidd113@my.centennialcollege.ca" method="post">
+      <table style="width:100%">
+        <tr>
+          <td style="height: 30px; width: 160px;" class="fieldLabel">Course Name/Code:</td>
+          <td style="height: 30px">
+            <select name="select-courses" size="1" tabindex="1">
+              <option>--Select Course--</option>
+              <option value="COMP100">COMP100 - Programming I</option>
+              <option value="COMP125">COMP125 - Client Side Development</option>
+              <option value="COMP213">COMP213 - Web Interface Design</option>
+              <option value="COMP225">COMP225 - Systems I</option>
+              <option value="COMP229">COMP229 - Server Side Development</option>
+              <option value="COMP397">COMP397 - Web Game Programming</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <table style="width: 100%">
+        <tr>
+          <td style="height: 30px; width: 160px" class="fieldLabel">Semester:</td>
+          <td style="height: 30px; width:350px">
+            <input name="optSemester" tabindex="3" type="radio" value="F">Fall&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="optSemester" tabindex="5" type="radio" value="W">Winter&nbsp;&nbsp;&nbsp;
+            <input name="optSemester" tabindex="7" type="radio" value="S">Spring/Summer
+          </td>
+          <td style="height: 30px; width:90px" class="fieldLabel">Year:</td>
+          <td style="height: 30px">
+            <select name="select-year" tabindex="9">
+              <option>--Select--</option>
+              <option>2023</option>
+              <option>2022</option>
+              <option>2021</option>
+              <option>2020</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td style="height:30px; width:160px;" class="fieldLabel">Instructor:</td>
+          <td style="height:30px; width:350px">
+            <input name="txtInstructorName" size="50" type="text" tabindex="11">
+          </td>
+          <td style="height:30px; width:90px;" class="fieldLabel"></td>
+          <td style="height:30px">&nbsp;</td>
+        </tr>
+      </table>
+      <br>
+      <fieldset>
+        <legend>
+          <h4>INSTRUCTOR</h4>
+        </legend>
+        <label>How would you rate the instructor's:</label><br><br>
+        <label>1. <strong>Knowledge</strong> of subject?</label>
+        <br><input name="optKnow" tabindex="13" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optKnow" tabindex="15" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optKnow" tabindex="17" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optKnow" tabindex="19" type="radio" value="N">Not Satisfactory
+        <br><br><label>2. <strong>Helpfullness</strong>?</label>
+        <br><input name="optHelp" tabindex="21" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optHelp" tabindex="23" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optHelp" tabindex="25" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optHelp" tabindex="27" type="radio" value="N">Not Satisfactory
+        <br><br><label>3. <strong>Courtesy and respect</strong> for all students?</label>
+        <br><input name="optCourt" tabindex="29" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optCourt" tabindex="31" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optCourt" tabindex="33" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optCourt" tabindex="35" type="radio" value="N">Not Satisfactory
+        <br><br><label>4. <strong>Communication</strong> skills?</label>
+        <br><input name="optComm" tabindex="37" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optComm" tabindex="39" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optComm" tabindex="41" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optComm" tabindex="43" type="radio" value="N">Not Satisfactory
+        <br><br><label>5. Overall <strong>performance?</strong></label>
+        <br><input name="optPerf" tabindex="45" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optPerf" tabindex="47" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optPerf" tabindex="49" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optPerf" tabindex="51" type="radio" value="N">Not Satisfactory
+      </fieldset><br>
+      <fieldset>
+        <legend>
+          <h4>COURSE</h4>
+        </legend>
+        <br><label>6. How would you rate the <strong>course materials</strong>?</label>
+        <br><input name="optMat" tabindex="53" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optMat" tabindex="55" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optMat" tabindex="57" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optMat" tabindex="59" type="radio" value="N">Not Satisfactory
+        <br><br><label>7. How much did this course meet your <strong>expectations</strong>?</label>
+        <br><input name="optExp" tabindex="61" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optExp" tabindex="63" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optExp" tabindex="65" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optExp" tabindex="67" type="radio" value="N">Not Satisfactory
+        <br><br><label>8. How would you rate this course (<strong>overall</strong>)?</label>
+        <br><input name="optOver" tabindex="69" type="radio" value="E">Excellent
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optOver" tabindex="71" type="radio" value="G">Good
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optOver" tabindex="73" type="radio" value="F">Fair
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optOver" tabindex="75" type="radio" value="N">Not Satisfactory
+      </fieldset><br>
+      <fieldset>
+        <legend>
+          <h4>GENERAL INFORMATION</h4>
+        </legend>
+        <br><label>9. Was the <strong>course outline</strong> reviewed/explained at the beginning of your
+          course?</label>
+        <br><input name="optOut" tabindex="77" type="radio" value="Y">Yes
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optOut" tabindex="79" type="radio" value="N">No
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optOut" tabindex="81" type="radio" value="NS">Not Sure
+        <br><br><label>10. Would you <strong>recommend</strong> this course to a friend with the same interests?</label>
+        <br><input name="optRec" tabindex="83" type="radio" value="Y">Yes
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optRec" tabindex="85" type="radio" value="N">No
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input name="optRec" tabindex="87" type="radio" value="NS">Not Sure
+      </fieldset><br>
+      <fieldset>
+        <legend>
+          <h4>ANY OTHER COMMENTS</h4>
+        </legend>
+        <br><label>11. What was the <strong>best thing</strong> about this course?</label>
+        <textarea cols="100" name="txtBestThing" rows="4" tabindex="89"></textarea>
+        <br><br><label>12. How could we <strong>improve</strong> this course?</label>
+        <textarea cols="100" name="txtImprove" rows="4" tabindex="91"></textarea>
+        <br><br><label>13. Other:<br></label>
+        <textarea cols="100" name="txtOther" rows="4" tabindex="93"></textarea>
+      </fieldset>
+      <label style="width: 125px; text-align: center;">
+        <input id="btnSubmit" name="btnSubmit" tabindex="95" type="submit" value="Submit">
+      </label>
+      <input id="btnReset" name="btnReset" type="reset" value="Clear Form" tabindex="97">
+      <br><br>
+      <p style="font-style: italic; text-align: center;">Thank you! We pay attention to your feedback!</p>
+      <footer>
+        <p>
+          Web:<a
+            href="https://www.centennialcollege.ca/about-centennial/schools/school-of-engineering-technology-and-applied-science/">
+            www.centennialcollege.ca/continuing_education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+          Email:<a style="float: right;"
+            href=mailto:continuingeducation@centennialcollege.ca;>continuingeducation@centennialcollege.ca</a>
+        </p>
+        <a href="../index.html">Back to Home Page</a>
+        <br>
+        <p id="copyright">
+        <h6>&copy;&nbsp;Copyright Absar Siddiqui-Atta - COMP213 - Fall 2023 - Assignment 4</h6>
+      </footer>
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Property Listings</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <meta content="webdesign, COMP213" name="keywords">
+  <meta content="Final Project" name="description">
+  <link href="project.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div style="width:980px; margin-left:auto; margin-right:auto;">
+    <div id="allPage">
+      <div id="header" style="position: absolute; left: 0px; top: 0px; width: 980px; height: 150px; z-index: 1">
+        <a href="Home.html">
+          <img id="photoHeader" alt="Real Estate Agent" height="140" src="images/agent.jpeg" width="120"
+            class="auto-style2"></a>
+        <br>
+        <br>
+        <br>
+        <ul style="list-style-type: none;">
+          <li>Phone: 416-629-1111</li>
+          <li>Email: <a href="mailto:asidd113@my.centennialcollege.ca">Ryan@RealEstateWithRyan.com</a></li>
+        </ul>
+        <p>&nbsp;</p>
+      </div>
+      <div id="nav" style="position: absolute; left: 0px; top: 150px; width: 200px; height: 630px;">
+        <nav>
+          <ul>
+            <li id="page"><a href="Home.html">Home</a></li>
+            <li><a href="Listings.html">Active Listing</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="SiteMap.html">Sitemap</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div id="content" style="position: absolute; left: 200px; top: 150px; width: 780px; height: 630px; z-index: 3">
+        <h3>Contact Us</h3>
+        <form action="mailto:asidd113@my.centennialcollege.ca" method="post">
+          <table style="width: 70%">
+            <tr>
+              <th class="auto-style1"><span lang="en-ca">Your Information</span></th>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable"><span class="label" lang="en-ca">Email:</span></td>
+              <td>
+                <input required="required" placeholder="someone@someplace.com" name="txtEmail" size="25" tabindex="1">
+              </td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable"><span class="label" lang="en-ca">Full
+                  name:</span></td>
+              <td>
+                <input name="txtName" size="25" tabindex="3" type="text">
+              </td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable"><span class="label" lang="en-ca">Phone
+                  number:</span></td>
+              <td><input name="txtPhone" size="25" tabindex="5" type="text"></td>
+            </tr>
+            <tr>
+              <th class="auto-style1"><span lang="en-ca">What are you looking for?</span></th>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable"><span lang="en-ca">What kind of property
+                  are you looking for? <br>Check all that apply.</span></td>
+              <td><span lang="en-ca">
+                  <input name="chkProperty1" tabindex="7" type="checkbox" value="House">House&nbsp;&nbsp;
+                  <input name="chkProperty2" tabindex="9" type="checkbox" value="Town">Townhouse<br>
+                  <input name="chkProperty3" tabindex="11" type="checkbox" value="Condo">Condominium&nbsp;&nbsp;
+                  <input name="chkProperty" tabindex="13" type="checkbox" value="Apart">Apartment</span></td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable"><span lang="en-ca">Number of bedrooms:</span></td>
+              <td><select name="selBedroom" size="1" tabindex="15">
+                  <option>Any</option>
+                  <option>Studio</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6+</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable"><span lang="en-ca">Number of bathrooms:</span></td>
+              <td><select name="selBathroom" size="1" tabindex="17">
+                  <option>Any</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5+</option>
+                </select></td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable"><span lang="en-ca">Price range:</span></td>
+              <td><span lang="en-ca">$Min:&nbsp; </span>
+                <input name="txtMinPrice" size="10" tabindex="19" type="text" value="0"><span
+                  lang="en-ca">&nbsp;&nbsp;&nbsp;
+                  —&nbsp;&nbsp; $Max&nbsp; </span>
+                <input name="txtMaxPrice" type="text" size="10" tabindex="21" value="2000000">
+              </td>
+            </tr>
+            <tr>
+              <td class="floatupright"><span lang="en-ca">Additional comments:</span></td>
+              <td><textarea cols="40" name="txtComments" rows="5" tabindex="23"
+                  placeholder="Please leave any additional comments here."></textarea></td>
+            </tr>
+            <tr>
+              <td class="FloatRightTable">
+                <input name="btnSubmit" tabindex="27" type="submit" value="Complete Form">
+              </td>
+              <td>
+                <input name="btnReset" tabindex="30" type="reset" value="Clear Form">
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+      <div id="footer" style="position: absolute; left: 0px; top: 835px; width: 980px; height: 70px;">
+        <p>&nbsp;<a href="../index.html">Back to Index</a></p>
+        <p id="copyright">&nbsp;&copy;&nbsp;Copyright Absar Siddiqui-Atta - COMP213 - Final Project - Fall 2023</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
